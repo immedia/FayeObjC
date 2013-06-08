@@ -18,7 +18,7 @@
 		8D748B4517584A05008BF25D /* NSString+FayeInflectionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D748B4217584A05008BF25D /* NSString+FayeInflectionSupport.m */; };
 		8D748B4617584A05008BF25D /* NSString+FayeInflectionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D748B4217584A05008BF25D /* NSString+FayeInflectionSupport.m */; };
 		8DF03A5116ED90C8000A0035 /* FayeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF03A2916ED90C8000A0035 /* FayeClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8DF03A5216ED90C8000A0035 /* FayeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF03A2916ED90C8000A0035 /* FayeClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DF03A5216ED90C8000A0035 /* FayeClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF03A2916ED90C8000A0035 /* FayeClient.h */; settings = {ATTRIBUTES = (); }; };
 		8DF03A5516ED90C8000A0035 /* FayeMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF03A2B16ED90C8000A0035 /* FayeMessage.h */; };
 		8DF03A5616ED90C8000A0035 /* FayeMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF03A2B16ED90C8000A0035 /* FayeMessage.h */; };
 		8DF047E116ED9876000A0035 /* NSDate-UTC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF03A7D16ED9862000A0035 /* NSDate-UTC.h */; };
@@ -8513,6 +8513,7 @@
 		8D07624416ED2ABC002D5F3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/FayeObjCLibrary.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FayeObjCLibrary/FayeObjCLibrary-Prefix.pch";
@@ -8533,6 +8534,7 @@
 		8D07624516ED2ABC002D5F3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/FayeObjCLibrary.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FayeObjCLibrary/FayeObjCLibrary-Prefix.pch";
